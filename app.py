@@ -6,8 +6,11 @@ if operation == "+":
     result = x + y
 elif operation == "-":
     result = x - y
+elif operation == "*":
+    result = x * y
 else:
     print("Unknown operation!")
     exit()
+
 
 print("Result:", result)
