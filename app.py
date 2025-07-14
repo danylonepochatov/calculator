@@ -6,6 +6,8 @@ if operation == "+":
     result = x + y
 elif operation == "-":
     result = x - y
+elif operation == "/":
+    result = x / y
 elif operation == "*":
     result = x * y
 else:
